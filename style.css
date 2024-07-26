@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #f9f9f9;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+/* Estilos para a seção principal (main) */
+
+main {
+    padding: 20px;
+}
+
+.featured-books {
+    margin-bottom: 40px;
+}
+
+.featured-books h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.book-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.book-card img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.book-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.book-card p {
+    font-size: 14px;
+    color: #777;
+}
+
+.book-categories h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.book-categories ul {
+    list-style: none;
+}
+
+.book-categories li {
+    margin-bottom: 10px;
+}
+
+.book-categories a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.book-categories a:hover {
+    color: #0056b3;
+}
+
+/*Footer*/
+
+.site-footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
